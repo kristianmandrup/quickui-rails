@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "quickui-rails"
   gem.homepage = "http://github.com/kristianmandrup/quickui-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Quick UI packaged for use with Rails asset pipeline}
+  gem.description = %Q{Use Quick UI components in your Rails app!!!}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile

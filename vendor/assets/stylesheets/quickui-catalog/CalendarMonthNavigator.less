@@ -1,0 +1,38 @@
+@import "mixins";
+
+.CalendarMonthNavigator {
+  display: table;
+  .user-select(none);
+
+  .navigator {
+    margin-bottom: 0.5em;
+
+    // HACK: This refers directly to LateralNavigator internals. It'd be nice to
+    // redo this so we don't need to do that.
+    .panels {
+      white-space: nowrap;
+    }
+
+    .monthHeading {
+      .box-flex(1);
+      line-height: 1.0;
+      font-weight: bold;
+    }
+  }
+
+  .calendar {
+    width: 100%;
+  }
+
+  /* Generic appearance */
+  &.generic {
+    .monthHeading {
+      text-align: center;
+    }
+    .todayContainer {
+      padding-top: 0.25em;
+      text-align: center;
+    }
+  }
+
+}
